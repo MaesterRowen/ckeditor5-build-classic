@@ -30,6 +30,10 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
+// Custom Plugins
+import Font from '@ckeditor/ckeditor5-font/src/font';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -41,8 +45,10 @@ ClassicEditor.builtinPlugins = [
 	Italic,
 	BlockQuote,
 	CKFinder,
-	EasyImage,
-	Heading,
+    EasyImage,
+    Font,
+    Heading,
+    Highlight,
 	Image,
 	ImageCaption,
 	ImageStyle,
