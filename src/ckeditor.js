@@ -67,8 +67,8 @@ const plugins = [
 	TextTransformation
 ];
 
-ClassicEditor.builtInPlugins = plugins;
-InlineEditor.builtInPlugins = plugins;
+ClassicEditor.builtinPlugins = plugins;
+InlineEditor.builtinPlugins = plugins;
 
 // Editor configuration.
 const config = {
