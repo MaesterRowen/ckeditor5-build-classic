@@ -93,11 +93,6 @@
     "build/**",
     "packages/**"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "yarn": "^1.22.10"
   }
