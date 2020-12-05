@@ -39,7 +39,7 @@ class ClassicEditor extends ClassicEditorBase {}
 class InlineEditor extends InlineEditorBase {}
 
 // Plugins to include in the build.
-plugins = [
+const plugins = [
 	Essentials,
 	UploadAdapter,
 	Autoformat,
@@ -71,7 +71,7 @@ ClassicEditor.builtInPlugins = plugins;
 InlineEditor.builtInPlugins = plugins;
 
 // Editor configuration.
-config = {
+const config = {
 	toolbar: {
 		items: [
 			'heading',
@@ -118,4 +118,4 @@ InlineEditor.defaultConfig = config;
 
 export default {
     ClassicEditor, InlineEditor
-}
+};  
